@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 500px;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 150vh;
+   background-image: url(./Images/pexels-andrew-wilus-5516229.jpg);
+   background-attachment: fixed;
+   background-size: cover;
+   
+
+    
+}
+
+
+.main {
+    background-color: transparent;
+    box-shadow: 0 5px 5px rgb(37, 37, 37);
+    width: 550px;
+    overflow: hidden;
+    border-radius: 30px;
+    max-width: 100%;
+    
+    
+    
+}
+
+.header {
+    background-color: rgb(163, 88, 44);
+    border-bottom: 2px solid #f2f2f2;
+    padding: 20px 20px;
+}
+
+.header h2{
+    margin: 0;
+    text-align: center;
+}
+
+#form{
+    
+    padding: 70px 30px;
+    background-color:  rgb(163, 88, 44);
+    
+}
+
+.form-control{
+
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-control label{
+    display: inline-block;
+    margin-bottom: 5px;
+
+}
+
+.form-control input{
+    border: 2px solid #c8b9dd;
+    display: block;
+    width: auto;
+    padding: 10px;
+    font-family: inherit;
+    font-size: 15px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+.form-control input{
+
+    border-color: #520806;
+}
+
+
+.btn{
+    
+    border-radius: 20px;
+    border: 2px solid whitesmoke;
+    padding: 5px;
+    height: auto;
+    padding: 10px;
+    font-size: 15px;
+    font-family: inherit;
+    width: 100%;
+    align-content: center;
+    background: rgb(163, 88, 44);
+    color: #f2f2f2;
+    
+}
+
+.btn:hover{
+
+    background:#520806;
+}
+
+h2:hover{
+    font-size: 30px;
+    color: #520806;
+}
+label:hover{
+    font-size: 20px;
+    color: #520806;
+    font-weight: 600;
+}
+.form-control input:hover{
+    background: #b14a46;
+}
